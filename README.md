@@ -29,6 +29,21 @@ python main.py Пурпурный
 
 ![image](https://github.com/wezbicka/Planet_Earth/blob/main/white.gif)
 
+Также есть симпотичная справка по команде
+```
+$ python main.py -h       
+usage: main.py [-h] [color]
+
+Программа выведет в консоль планету и раскрутит её
+
+positional arguments:
+  color       Вы можете выбрать цвет планеты из предложенных: Чёрный,    
+              Красный, Зелёный, Жёлтый, Синий, Пурпурный, Голубой, Белый.
+              По умолчанию задан зелёный
+
+options:
+  -h, --help  show this help message and exit
+```
 
 ## Цель проекта
 Код написан в образовательных целях.
