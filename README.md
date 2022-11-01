@@ -25,7 +25,7 @@ python main.py
 python main.py Пурпурный
 ```
 После запуска Вы увидете:
-![image](https://github.com/wezbicka/Planet_Earth/white.gif)
+![image](https://github.com/wezbicka/Planet_Earth/blob/main/white.gif)
 
 
 ## Цель проекта
