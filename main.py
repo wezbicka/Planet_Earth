@@ -28,7 +28,6 @@ print("""\u001b[32;1m
 sleep(0.5)
 print('\033[2J', end="")
 print("\u001b[100A", end="")
-
 print("""
                   .ovr:HMM#?:`' >b\\_
               .,:&Hi' `'   '' \\\\|&bSMHo_
