@@ -1,7 +1,24 @@
+import sys
 from time import sleep
 
 
-print("""\u001b[32;1m
+colors = {
+    "Чёрный": "\u001b[30m",
+    "Красный": "\u001b[31m",
+    "Зелёный": "\u001b[32m",
+    "Жёлтый": "\u001b[33m",
+    "Синий": "\u001b[34m",
+    "Пурпурный": "\u001b[35m",
+    "Голубой": "\u001b[36m",
+    "Белый": "\u001b[37m",
+}
+
+if len(sys.argv) > 1:
+    color = colors[sys.argv[1].capitalize()]
+else:
+    color = colors["Зелёный"]
+print(color)
+print("""
                    _-o#&&*''''?d:>b\\_
               _o/'`''  '',, dMF9MMMMMHo_
            .o&#'        `'MbHMMMMMMMMMMMHo.
@@ -24,7 +41,8 @@ print("""\u001b[32;1m
           `&.                             .
             `~,   .                     ./
                 . _                  .-PP
-                  '`--._,dd###pp=''' """)
+                  '`--._,dd###pp=''' 
+""")
 sleep(0.5)
 print('\033[2J', end="")
 print("\u001b[100A", end="")
@@ -78,7 +96,8 @@ print("""
           .           `MM*                . '
             -.         #M: .    .       .-
               ` .         .,         .-
-                  '-.-~ooHH__,,v~--` """)
+                  '-.-~ooHH__,,v~--` 
+""")
 sleep(0.5)
 print('\033[2J', end="")
 print("\u001b[100A", end="")
@@ -106,7 +125,7 @@ print("""
            `.                &M'..  .   ..'
               ' .             ._     .-
                   '-. -voboo#&:,-.-`
-      """)
+""")
 sleep(0.5)
 print('\033[2J', end="")
 print("\u001b[100A")
@@ -134,7 +153,7 @@ print("""
             -.                    ,M'-  ..'
               ` .                .. ..-`
                   '-. .\\ooooboo<^.-`
-      """)
+""")
 sleep(0.5)
 print('\033[2J', end="")
 print("\u001b[100A", end="")
@@ -162,7 +181,7 @@ print("""
            `.                         ,/\\ '
               '-..                  _.-
                   '---.._\\o,oov+--''
-      """)
+""")
 sleep(0.5)
 print('\033[2J', end="")
 print("\u001b[100A", end="")
@@ -190,7 +209,7 @@ print("""
             -                           ,-'
               ' .                    .-
                  ```^==\\_.,,,ov--\\-`
-      """)
+""")
 sleep(0.5)
 print('\033[2J', end="")
 print("\u001b[100A", end="")
@@ -218,7 +237,7 @@ print("""
            ` .                          ..'
                - .                  ..-
                   '`*#d##c.._\\v----`
-      """)
+""")
 sleep(0.5)
 print('\033[2J', end="")
 print("\u001b[100A", end="")
@@ -246,7 +265,7 @@ print("""
            `-                           ..'
               ' .                    .-
                   '`*##HMH##:__,-.-`
-      """)
+""")
 sleep(0.5)
 print('\033[2J', end="")
 print("\u001b[100A", end="")
@@ -274,7 +293,7 @@ print("""
            `..                          ..'
               `  .                   .-
                   '`'#HHMMMMM#<>..-`
-      """)
+""")
 sleep(0.5)
 print('\033[2J', end="")
 print("\u001b[100A", end="")
@@ -302,7 +321,7 @@ print("""
            `.                           .-
               '- .                   .-`
                   '`\\bqHMMMMMMHHb--`
-      """)
+""")
 sleep(0.5)
 print('\033[2J', end="")
 print("\u001b[100A", end="")
@@ -330,7 +349,7 @@ print("""
            ` .                          . '
               ` .                    . `
                   '--##HH#HMMMHH#''`
-      """)
+""")
 sleep(0.5)
 print('\033[2J', end="")
 print("\u001b[100A", end="")
